@@ -1,0 +1,12 @@
+# start end gamma_step T comment
+2.3 2.7 0.01 200 'the first hopf biffurcation'
+4.0 4.4 0.005 200 'a jump in periodic orbit'
+17.5 18.0 0.05 200 'first kink appear'
+20.5 21.5 0.05 200 'crossing in n'
+29.0 30.0 0.05 300 'kink in q_d'
+30.0 30.5 0.02 800 'period doublings'
+35.6 36.3 0.05 800 'folds in q_d'
+38.5 39.0 0.05 1600 'period cascade?'
+39.2 39.6 0.05 4000 'onset of chaos'
+42.0 42.3 0.05 4000 'a periodic window'
+43.5 44.0 0.05 4000 'a chaotic region'
