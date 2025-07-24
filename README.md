@@ -6,12 +6,12 @@ in a work "TODO: put work info here".
 ### Requirements:
 
 The program is written in C++ and has been tested under Linux Ubuntu 20.04 with gcc (Ubuntu 9.4.0-1ubuntu1~20.04.2) compiler. 
-The program uses the [capdDDEs][https://github.com/robsontpm/capdDDEs] library, which in turn is based on [CAPD](http://capd.ii.uj.edu.pl/),
+The program uses the [capdDDEs](https://github.com/robsontpm/capdDDEs) library, which in turn is based on [CAPD](http://capd.ii.uj.edu.pl/),
 and all their requirements must be satisfied. The required libraries will be installed when following the intallation instruction.
 
 ### Instalation instruction:
 
-- Follow the initalation instructions on the page of [capdDDEs][https://github.com/robsontpm/capdDDEs].
+- Follow the initalation instructions on the page of [capdDDEs](https://github.com/robsontpm/capdDDEs).
 - When the library and its dependencies are installed, please navigate to the directory ``program/results``: ``cd program/results``.
 - In this diectory clone the repository: ``git clone https://github.com/robsontpm/capdDDEs.git``.
 - enter the directory ``ddes-evo-game``: ``cd ddes-evo-game``.
