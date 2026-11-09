@@ -7,6 +7,9 @@ log_prep.txt
 log_proof.txt
 tmp/
 proof-output/*/
+AGENT_TMP
+AGENT_TMP/
+AGENT_TMP/*
 
 # eclipse project
 .cproject

@@ -1,0 +1,12 @@
+GENERAL RULES
+---
+- If told to "DO NEXT TASK", read the first task marked NEW or UNFINISHED from the TASKS.md file and work on it. The task will have a definition of SUCCESS described. Explain first how you have understood the TASK and the definition of SUCCESS and ask user if it is correct. If prompted YES continue, if promted NO, run grill-me skill on this task.
+- when doing a task always create a new branch named "claude_fearun_NAMEOFTHETASK_DATE", where you change NAMEOFTHETASK into underscored general descripion of what you are doing, no more than 3 words in length. Then add current DATE in the format "YYYYMMDD".
+- commit your work to this branch with a summary of what have been done and what problems were encountered that needs addressing.
+- temporary files only in "./AGENT_TMP" directory. DO NOT soil the branch. 
+- if you struggle with the task after several attempts, write down what is wrong, what you have tried and failed, and what are possible othe plans in REPORT.md file. Mark task as UNFINISHED.
+- if you finished the task with a success, mark it as DONE. 
+- when you finish working, update LOG.md file with the current progress. That file is append only. Do not remove anything from it.
+- when you are starting a task, read at most 400 last lines from LOG.md to get some context. Read the whole file, only if you are lost. 
+- write down the last task you have been given to LASTASK.md file.
+- IMPORTANT: never commit any chainges to the main branch!
